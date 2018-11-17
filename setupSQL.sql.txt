@@ -1,0 +1,21 @@
+create table Users
+(Usno varchar(20) primary key,
+Uspassword varchar(20),
+Uspost varchar(10),
+Ucname varchar(40),
+Usname varchar(40),
+Usaddress varchar(40),
+Ustele varchar(20),
+Usweixin varchar(20),
+Usyouxiangadd varchar(20),
+Usqq varchar(20),
+Usdiy varchar(100), 
+)//数据库建立
+
+select * from users
+where Ucname=' ';//班长查询
+
+insert into users(Usno,Uspassword,Uspost,Ucname,Usname,Usaddress,Usyouxiangadd,Ustele,Usweixin,UsQQ,Usdiy)values('','','','','','','','','','','','');//插入
+
+update users
+set ;更新（set后面填入要更新的属性和属性值）
